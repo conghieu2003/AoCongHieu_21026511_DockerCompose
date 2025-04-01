@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Docker Node.js Launch",
+            "type": "docker",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "platform": "node",
+            "node": {
+                "package": "${workspaceFolder}/Phan2_Bai04/package.json",
+                "localRoot": "${workspaceFolder}/Phan2_Bai04"
+            }
+        }
+    ]
+}
